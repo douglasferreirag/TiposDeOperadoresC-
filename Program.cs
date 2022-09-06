@@ -20,9 +20,9 @@
 //Console.WriteLine(c);
 
 //Cast  -  Casting
-//int a = Convert.ToInt32("5");
+int a = Convert.ToInt32(null); // Retorna 0 ao passar o valor nulo como parâmetro. Preferíel de utilizar. Cenário  de valor nulo é comum.
 
-int a = int.Parse("5");
+//int a = int.Parse(null); // Não aceita nulo
 
 Console.WriteLine(a);
 
