@@ -1,6 +1,9 @@
 ﻿using ExemploFundamentos.Models;
 
 
+
+
+
 // int a =  10;
 
 // int  b = 20;
@@ -20,9 +23,12 @@
 //Console.WriteLine(c);
 
 //Cast  -  Casting
-int a = Convert.ToInt32(null); // Retorna 0 ao passar o valor nulo como parâmetro. Preferíel de utilizar. Cenário  de valor nulo é comum.
+//int a = Convert.ToInt32(null); // Retorna 0 ao passar o valor nulo como parâmetro. Preferíel de utilizar. Cenário  de valor nulo é comum.
 
 //int a = int.Parse(null); // Não aceita nulo
+
+int inteiro = 5;
+string a =   inteiro.ToString();
 
 Console.WriteLine(a);
 
