@@ -2,7 +2,7 @@
 
 
 
-int quantidadeEmEstoque = 10;
+int quantidadeEmEstoque = 3;
 
 int quantidadeCompra = 4;
 
